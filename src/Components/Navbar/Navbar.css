@@ -1,0 +1,50 @@
+nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 110px;
+}
+.items {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.items .active {
+  padding-bottom: 3px;
+  border-bottom: red solid 3px ;
+  color: rgb(255, 0, 0);
+  
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+.right-nav img {
+    align-items: center;
+  width: 30px;
+}
+.basket{
+    position: relative;
+}
+.notf{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 5px;
+    background-color: red;
+    top: -8px;
+    right: -8px;
+}
+.hh img {
+    align-items: center;
+    width: 35px;
+}
