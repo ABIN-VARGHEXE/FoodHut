@@ -16,7 +16,9 @@ import Services from '/assets/images/Services Page.png'
 import fullday from '/assets/images/24by 7.png'
 import booking from '/assets/images/booking.png'
 import online_support from '/assets/images/online support.png'
-
+import play_store from '/assets/images/Mobile app store badge play.png'
+import App_store from '/assets/images/Mobile app store badge.png'
+import Banner_img from '/assets/images/Banner-img.png'
 
 import food_1 from '/assets/images/food_1.png'
 import food_2 from '/assets/images/food_2.png'
@@ -102,7 +104,10 @@ export const assets = {
     food_29,
     food_30,
     food_31,
-    food_32
+    food_32,
+    play_store,
+    App_store,
+    Banner_img
 
 }
 

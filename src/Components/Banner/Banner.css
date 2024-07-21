@@ -7,24 +7,39 @@
   
   .maincontiner-banner {
     display: flex;
-    padding: 150px 0;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
   }
   .textcontiner-banner h1 {
     font-size: 50px;
     font-weight: 1000;
     color: #333;
-    width: 395px;
+    width: 555px;
     margin: 20px 0;
   }
   .textcontiner-banner {
     width: 50%;
     height: auto;
+    padding: 0 50px;
   }
   .imagecontainer-banner img {
-    width: 80%;
+    width: 85%;
+    height: 60%;
+  }
+  .imagecontainer-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .desc-banner {
     width: 90%;
     font-size: 18px;
+  }
+  .stores{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
   }
