@@ -4,3 +4,27 @@
   .word-colour-2 {
     color: #fdc55e;
   }
+  
+  .maincontiner-banner {
+    display: flex;
+    padding: 150px 0;
+    gap: 10px;
+  }
+  .textcontiner-banner h1 {
+    font-size: 50px;
+    font-weight: 1000;
+    color: #333;
+    width: 395px;
+    margin: 20px 0;
+  }
+  .textcontiner-banner {
+    width: 50%;
+    height: auto;
+  }
+  .imagecontainer-banner img {
+    width: 80%;
+  }
+  .desc-banner {
+    width: 90%;
+    font-size: 18px;
+  }
