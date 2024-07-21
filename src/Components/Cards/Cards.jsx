@@ -11,7 +11,7 @@ const Card = ({ id, name, price, description, image }) => {
         <span className="card-price">${price}</span>
       </div>
       <button className='order-btn'>
-        Order Now
+        Add to Cart
       </button>
     </div>
       );

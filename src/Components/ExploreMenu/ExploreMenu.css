@@ -60,3 +60,6 @@
 .item:hover {
   border: 2px solid #f54748;
 }
+.displayblock{
+  display: block;
+}

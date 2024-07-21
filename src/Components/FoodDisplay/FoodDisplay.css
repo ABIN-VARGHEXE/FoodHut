@@ -7,3 +7,28 @@
     margin-top: 30px;
     gap: 20px;
 }
+.explore-more-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.explore-more{
+        border-radius: 100px;
+        border: 2px solid #f54748;
+        box-sizing: border-box;
+        padding: 12px 20px;
+        opacity: 0.8;
+        background-color: transparent;
+        font-size: 18px;
+        color: #f54748;
+        cursor: pointer;
+        transition: all 0.3s ease;
+}
+
+.explore-more:hover {
+        background-color: #f54748;
+        color: white;
+        opacity: 1;
+}
