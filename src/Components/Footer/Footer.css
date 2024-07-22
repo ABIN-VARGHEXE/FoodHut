@@ -1,5 +1,148 @@
-.footer-main{
-    width: 100%;
-    background-color: red;
-    height: 250px;
+.footer-main {
+  width: 100%;
+  height: 250px;
+  padding: 250px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 270px;
+  max-width: 100%;
+  gap: 20px;
+}
+
+.footer-1 h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #f54748;
+}
+.footer-1 p {
+  position: relative;
+  font-size: 18px;
+  color: #191919;
+  text-align: left;
+  display: inline-block;
+}
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  max-width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-2 h2 {
+  font-size: 23Fpx;
+  font-weight: bold;
+  color: #f54748;
+}
+.footer-2 ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* No extra padding around the list */
+  display: flex;
+  flex-direction: column; /* Assuming you're using Flexbox */
+  flex-wrap: wrap; /* Allow items to wrap if there's not enough space */
+  gap: 10px; /* Adjust the gap size as needed */
+}
+
+.footer-2 li {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer-2 li:hover {
+  color: #f54748; /* Change color on hover */
+}
+.footer-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 170px;
+  max-width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+.footer-3 h2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: #f54748;
+}
+.footer-3 ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* No extra padding around the list */
+  display: flex;
+  flex-direction: column; /* Assuming you're using Flexbox */
+  flex-wrap: wrap; /* Allow items to wrap if there's not enough space */
+  gap: 10px; /* Adjust the gap size as needed */
+}
+
+.footer-3 li {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer-3 li:hover {
+  color: #f54748; /* Change color on hover */
+}
+.footer-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  max-width: 100%;
+  gap: 20px;
+}
+.footer-4 h2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: #f54748;
+}
+.social-media {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+}
+.email-box {
+  padding: 0 25px;
+  position: relative;
+  border-radius: 38px;
+  color: #191919;
+  border: 1px solid grey;
+  background-color: rgba(156, 156, 156, 0.14);
+  max-width: 100%;
+  overflow: hidden;
+  height: 50px;
+}
+.sreach{
+    display: flex;
+    gap: 20px;
+}
+.sreach button{
+    padding: 0 25px;
+    position: relative;
+    border-radius: 39px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 50px;
+    color: white;
+    background-color: #f54748;
+    border: none;
+    cursor: pointer;
+}
+
+.sreach button:hover{
+    background-color: #d43e3e; /* Example: Change background color on hover */
+}
+.footer-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
 }

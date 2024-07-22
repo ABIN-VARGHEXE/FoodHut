@@ -19,6 +19,9 @@ import online_support from '/assets/images/online support.png'
 import play_store from '/assets/images/Mobile app store badge play.png'
 import App_store from '/assets/images/Mobile app store badge.png'
 import Banner_img from '/assets/images/Banner-img.png'
+import Facebook from '/assets/images/Facebook.png'
+import Instagram from '/assets/images/instagram.png'
+import Twitter from '/assets/images/Twitter.png'
 
 import food_1 from '/assets/images/food_1.png'
 import food_2 from '/assets/images/food_2.png'
@@ -107,7 +110,10 @@ export const assets = {
     food_32,
     play_store,
     App_store,
-    Banner_img
+    Banner_img,
+    Facebook,
+    Instagram,
+    Twitter
 
 }
 
