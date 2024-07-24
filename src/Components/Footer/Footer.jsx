@@ -5,7 +5,7 @@ import { assets } from "../../utils";
 const Footer = () => {
   return (
     <div>
-    <div className="footer-main">
+    <div className="footer-main" id="Contact">
       <div className="footer-1">
         <h1>FoodHut</h1>
         <p>

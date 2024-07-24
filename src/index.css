@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Sofia Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-image: url(../public/assets/images/Landing\ Page.jpg);

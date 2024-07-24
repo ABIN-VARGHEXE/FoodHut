@@ -16,7 +16,6 @@ const Home = () => {
         <Services />
         <ExploreMenu category={category} SetCategory={SetCategory}  />
         <Banner />
-        <Footer />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { assets } from "../../utils";
 const Banner = () => {
   return (
     <div>
-      <div className="maincontiner-banner">
+      <div className="maincontiner-banner" id="Mobile-App">
         <div className="textcontiner-banner">
           <h1>
             It’s Now <span className="word-colour-1">More Easy</span> to{" "}

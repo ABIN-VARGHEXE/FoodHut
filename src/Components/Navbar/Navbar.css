@@ -7,44 +7,47 @@ nav {
 .logo {
   width: 110px;
 }
-.items {
+ul {
   display: flex;
+  justify-content: center;
   list-style: none;
   font-size: 18px;
   font-weight: 700;
   gap: 40px;
   cursor: pointer;
 }
+.items a{
+  color: #191919;
+  cursor: pointer;
+  text-decoration: none; /* added to remove underline in all links */
+}
 
 .items .active {
   padding-bottom: 3px;
-  border-bottom: red solid 3px ;
+  border-bottom: 3px solid red;
   color: rgb(255, 0, 0);
-  
 }
 .right-nav {
   display: flex;
   align-items: center;
   gap: 25px;
-  cursor: pointer;
 }
 .right-nav img {
-    align-items: center;
   width: 30px;
 }
-.basket{
-    position: relative;
+.basket {
+  position: relative;
 }
-.notf{
-    position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    border-radius: 5px;
-    background-color: red;
-    top: -8px;
-    right: -8px;
+.notf {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  top: -8px;
+  right: -8px;
 }
 .hh img {
-    align-items: center;
-    width: 35px;
+  width: 35px;
+  cursor: pointer;
 }
